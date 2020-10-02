@@ -23,7 +23,7 @@ if(x==y)
     cout<<min(x*b,2*x*a)<<endl;
 }
 else if(x>y)
-{
+{s
    ll k=(x-y)*a ;
    cout<<min(k+(b*y),min((x+y)*a,(x*b)+k))<<endl;
 }
@@ -48,6 +48,3 @@ else
  
  
  
- 
- 
-return 0;}
